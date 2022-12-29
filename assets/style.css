@@ -4,51 +4,100 @@
 header {
     display: flex;
     background-color: #cd7a00;
-    
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header h1 {
-    display: flex;
     background-color: #cd7a00;
     color: white ;
-    text-align: left;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size:medium
-    width: 50%;
+    font-size:medium;
     
 }
 header nav {
-    width: 30%;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
     background-color: #cd7a00;
     
 }
-ul  {
-    display: flex;
-    justify-content: space-around
-  
-}
 
-nav ul {
+nav a {
     background-color: #cd7a00;
-    width: 100%;
-    display: flex
-    justify-content: space-around;
-    list-style: none;
+    margin-right: 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: medium;
     
 }
- .navbar {
-    background-color: #cd7a00;
-    display: inline-block;
-    justify-content: center;
-    align-content: right; 
-}
 
-.cover {
+
+.cover-image {
+    background-image: url("https://d3ui957tjb5bqd.cloudfront.net/uploads/2021/12/02080748/70s-Graphic-Designs_FeaturedImage_Horizontal.jpeg");
+    /* background-position: 50% ; */
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    min-height: 25vh;
+    
+    
+
     
 }
-.about-me {
+
+.page-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.page-section >h2 {
+    flex: 0 0 20%;
+    text-align: right;
+    border-right: 4px solid black;
+    padding-right: 15px;
+    font-size: 4vw; 
+    line-height: 1.1;
+}
+.page-section >div {
+    flex:0 0 75%;
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.projects {
+    display: flex;
+    border: 5px solid #cd7a00;
+    background-color: #567D89;
+    color: black;
+    min-height: 200px;
+    max-height: 200px;
+    flex-basis: calc(48% - 1em);
+    align-items: flex-end;
+    margin: 0.5em;
+    background-size: 150%;
+}
+.projects:first-child {
+    min-height: 350px;
+    flex-basis: 100%;
+}
+.surf {
+    background-image: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/retro-mountains-bekim-art.jpg");
+}
+.led {
+    background-image: url("https://cdn.dribbble.com/users/3149419/screenshots/16816366/media/aade624d7643a61f8205dd9d65edeb98.jpg?compress=1&resize=400x300");
+}
+/* .about-me {
     display: flexbox;
     background-color: #567D89;
     color: black;
@@ -67,4 +116,4 @@ h2 {
     justify-content: space-around
     
     
-}
+} */
