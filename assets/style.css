@@ -78,7 +78,7 @@ main {
 .projects {
   display: flex;
   border: 5px solid #cd7a00;
-  background-color: #a16b56;
+  background-color: #567d89;
   color: black;
   min-height: 200px;
   max-height: 200px;
@@ -89,7 +89,6 @@ main {
 }
 
 .projects:first-child {
-  background-color: #a16b56;
   min-height: 350px;
   flex-basis: 100%;
 }
@@ -104,14 +103,36 @@ h3, span {
 }
 
 .project-1 {
-  background-image: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/retro-mountains-bekim-art.jpg");
-  min-height: 200px;
-  max-height: 200px;
+  background-image: url("https://designshack.net/wp-content/uploads/modern-retro.png");
+  background-size: fill;
+  background-position:center;
+  background-repeat: no-repeat;
+  
 }
-.led {
+.project-2 {
   background-image: url("https://cdn.dribbble.com/users/3149419/screenshots/16816366/media/aade624d7643a61f8205dd9d65edeb98.jpg?compress=1&resize=400x300");
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
 }
-
+.project-3 {
+  background-image: url("https://cdn.dribbble.com/users/3149419/screenshots/16186448/media/ac3ab292f5121d8b3af69d521a050e44.jpg?compress=1&resize=400x300");
+  background-size: fill;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.project-4 {
+  background-image: url("https://cdn.dribbble.com/users/3149419/screenshots/17194451/nouveau_drib_2x.jpg");
+  background-size: fill;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.project-5 {
+  background-image: url("https://cdn.dribbble.com/users/3149419/screenshots/11364692/media/bf5c3d34baf0ea520a888fff442a3bbc.jpg?compress=1&resize=400x300");
+  background-size: fill;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .contact address {
   display: flex;
   flex-wrap: wrap;
