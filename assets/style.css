@@ -66,7 +66,6 @@ main {
 }
 .page-section > div {
   flex: 0 0 75%;
-  
 }
 
 .project-container {
@@ -96,18 +95,17 @@ main {
 .div-project-heading {
   border: 1.5px solid #cd7a00;
   background-color: #cd7a00;
-  
 }
-h3, span {
+h3,
+span {
   background-color: #cd7a00;
 }
 
 .project-1 {
   background-image: url("https://designshack.net/wp-content/uploads/modern-retro.png");
   background-size: fill;
-  background-position:center;
+  background-position: center;
   background-repeat: no-repeat;
-  
 }
 .project-2 {
   background-image: url("https://cdn.dribbble.com/users/3149419/screenshots/16816366/media/aade624d7643a61f8205dd9d65edeb98.jpg?compress=1&resize=400x300");
@@ -150,8 +148,8 @@ address a {
   color: black;
 }
 a:hover {
-    background-color: #a16b56;
-    opacity: 0.5;
+  background-color: #a16b56;
+  opacity: 0.5;
 }
 
 /* Cards are split into two columns at 992px or smaller */
@@ -184,4 +182,24 @@ a:hover {
   header nav a {
     background: #8ac4ff;
   }
+}
+@media screen and (max-width: 667px) {
+  .page-section p {
+    display: flex;
+    margin: 0px 0 0 80px;
+  }
+
+.contact a  {
+  display: flex;
+  font-size: 0.8rem;
+  text-decoration: none;
+  color: black;
+  flex-flow: column;
+  margin: 0px 0 0 80px;
+  justify-content: center;
+}
+.projects  {
+  display: flex;
+  background-size: auto;
+}
 }
