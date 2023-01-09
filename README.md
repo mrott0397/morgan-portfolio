@@ -20,3 +20,18 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
+## Description
+- Created portfolio to showcase my work
+- Used HTML and Advanced CSS techniques
+- Worked with flex-box 
+- Used classes to target large sections of my html 
+
+## Deplopyed Application
+https://mrott0397.github.io/morgan-portfolio/
+
+## Image
+![alt-text](./assets/images/Screen%20Shot%202023-01-07%20at%202.45.17%20PM.png)
+![alt-text](./assets/images/Screen%20Shot%202023-01-07%20at%202.45.47%20PM.png)
+
+## License
+MIT License
